@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'XMRouter_Example' do
+  pod 'XMRouter', :path => '../'
+
+  target 'XMRouter_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
