@@ -24,6 +24,10 @@
 		7A96EE74C6AA4D623DDB61D3 /* Pods_XMRouter_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 384FA75800CDECB4494A1D18 /* Pods_XMRouter_Example.framework */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
 		92209C7FA7A8D3CBD216011C /* Pods_XMRouter_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 95300CB208182C3D4FFDD82B /* Pods_XMRouter_Tests.framework */; };
+		E24EA00925DFDE3C00D6B4FB /* XMExampleView.m in Sources */ = {isa = PBXBuildFile; fileRef = E24EA00825DFDE3C00D6B4FB /* XMExampleView.m */; };
+		E2C3FC9625C8294700556DED /* XMPresentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E2C3FC9525C8294700556DED /* XMPresentViewController.m */; };
+		E2C8843725DE574700F9C775 /* XMParamsExampleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E2C8843625DE574700F9C775 /* XMParamsExampleViewController.m */; };
+		E2C8843C25DE87FE00F9C775 /* XMConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = E2C8843B25DE87FE00F9C775 /* XMConfig.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,7 +41,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		1072099E1BEEFF5555D3057F /* XMRouter.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = XMRouter.podspec; path = ../XMRouter.podspec; sourceTree = "<group>"; };
+		1072099E1BEEFF5555D3057F /* XMRouter.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = XMRouter.podspec; path = ../XMRouter.podspec; sourceTree = "<group>"; };
 		1CB905E64149FA5213201845 /* Pods-XMRouter_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XMRouter_Tests.release.xcconfig"; path = "Target Support Files/Pods-XMRouter_Tests/Pods-XMRouter_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		384FA75800CDECB4494A1D18 /* Pods_XMRouter_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XMRouter_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58A195388D20070C39A /* XMRouter_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XMRouter_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -64,9 +68,17 @@
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		89AFBE7737CEB1C6FD2B9B5C /* Pods-XMRouter_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XMRouter_Example.release.xcconfig"; path = "Target Support Files/Pods-XMRouter_Example/Pods-XMRouter_Example.release.xcconfig"; sourceTree = "<group>"; };
 		95300CB208182C3D4FFDD82B /* Pods_XMRouter_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XMRouter_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		A2301322F535AE5956F714EF /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		A2301322F535AE5956F714EF /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		A3284931DB96C7F83078C110 /* Pods-XMRouter_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XMRouter_Tests.debug.xcconfig"; path = "Target Support Files/Pods-XMRouter_Tests/Pods-XMRouter_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		F8EF26BB4255CCB10765C54D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		E24EA00725DFDE3C00D6B4FB /* XMExampleView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XMExampleView.h; sourceTree = "<group>"; };
+		E24EA00825DFDE3C00D6B4FB /* XMExampleView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XMExampleView.m; sourceTree = "<group>"; };
+		E2C3FC9425C8294700556DED /* XMPresentViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XMPresentViewController.h; sourceTree = "<group>"; };
+		E2C3FC9525C8294700556DED /* XMPresentViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XMPresentViewController.m; sourceTree = "<group>"; };
+		E2C8843525DE574700F9C775 /* XMParamsExampleViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XMParamsExampleViewController.h; sourceTree = "<group>"; };
+		E2C8843625DE574700F9C775 /* XMParamsExampleViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XMParamsExampleViewController.m; sourceTree = "<group>"; };
+		E2C8843A25DE87FE00F9C775 /* XMConfig.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XMConfig.h; sourceTree = "<group>"; };
+		E2C8843B25DE87FE00F9C775 /* XMConfig.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XMConfig.m; sourceTree = "<group>"; };
+		F8EF26BB4255CCB10765C54D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -134,9 +146,17 @@
 			children = (
 				6003F59C195388D20070C39A /* XMAppDelegate.h */,
 				6003F59D195388D20070C39A /* XMAppDelegate.m */,
+				E2C8843A25DE87FE00F9C775 /* XMConfig.h */,
+				E2C8843B25DE87FE00F9C775 /* XMConfig.m */,
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
 				6003F5A5195388D20070C39A /* XMViewController.h */,
 				6003F5A6195388D20070C39A /* XMViewController.m */,
+				E2C8843525DE574700F9C775 /* XMParamsExampleViewController.h */,
+				E2C8843625DE574700F9C775 /* XMParamsExampleViewController.m */,
+				E2C3FC9425C8294700556DED /* XMPresentViewController.h */,
+				E2C3FC9525C8294700556DED /* XMPresentViewController.m */,
+				E24EA00725DFDE3C00D6B4FB /* XMExampleView.h */,
+				E24EA00825DFDE3C00D6B4FB /* XMExampleView.m */,
 				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
@@ -193,7 +213,6 @@
 				A3284931DB96C7F83078C110 /* Pods-XMRouter_Tests.debug.xcconfig */,
 				1CB905E64149FA5213201845 /* Pods-XMRouter_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -258,6 +277,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -364,7 +384,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E24EA00925DFDE3C00D6B4FB /* XMExampleView.m in Sources */,
 				6003F59E195388D20070C39A /* XMAppDelegate.m in Sources */,
+				E2C3FC9625C8294700556DED /* XMPresentViewController.m in Sources */,
+				E2C8843C25DE87FE00F9C775 /* XMConfig.m in Sources */,
+				E2C8843725DE574700F9C775 /* XMParamsExampleViewController.m in Sources */,
 				6003F5A7195388D20070C39A /* XMViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
 			);
@@ -494,6 +518,7 @@
 			baseConfigurationReference = 7D5D7C991A4C6BA6C0C60BDD /* Pods-XMRouter_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "XMRouter/XMRouter-Prefix.pch";
 				INFOPLIST_FILE = "XMRouter/XMRouter-Info.plist";
@@ -510,6 +535,7 @@
 			baseConfigurationReference = 89AFBE7737CEB1C6FD2B9B5C /* Pods-XMRouter_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "XMRouter/XMRouter-Prefix.pch";
 				INFOPLIST_FILE = "XMRouter/XMRouter-Info.plist";

@@ -7,12 +7,18 @@
 //
 
 #import "XMAppDelegate.h"
+#import <objc/runtime.h>
+#import <dlfcn.h>
+#import <XMRouter.h>
+#import "XMConfig.h"
+
 
 @implementation XMAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
+    [[XMRouter shared] registerWithConfig:[XMConfig new]];
     return YES;
 }
 
@@ -41,6 +47,12 @@
 - (void)applicationWillTerminate:(UIApplication *)application
 {
     // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
+}
+
+- (BOOL)application:(UIApplication *)app openURL:(NSURL *)url options:(NSDictionary<UIApplicationOpenURLOptionsKey,id> *)options {
+    
+    [XMRouter routeWithUrl:url.absoluteString];
+    return YES;
 }
 
 @end

@@ -1,0 +1,22 @@
+{
+  "name": "XMRouter",
+  "version": "0.1.0",
+  "summary": "A short description of XMRouter.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/402187526@qq.com/XMRouter",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "402187526@qq.com": "minglica@isoftstone.com"
+  },
+  "source": {
+    "git": "https://github.com/402187526@qq.com/XMRouter.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "XMRouter/Classes/**/*"
+}

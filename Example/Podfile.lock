@@ -1,0 +1,16 @@
+PODS:
+  - XMRouter (0.1.0)
+
+DEPENDENCIES:
+  - XMRouter (from `../`)
+
+EXTERNAL SOURCES:
+  XMRouter:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  XMRouter: bcaecd7362dfb73d5996c914b76ca961098fd3c0
+
+PODFILE CHECKSUM: eef960294e945339f0ba763add044017fe889d34
+
+COCOAPODS: 1.10.0
