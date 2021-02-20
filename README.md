@@ -52,7 +52,7 @@
 
 2.手动传参：
 参数可以自己手动进行转换 参考examle里的XMParamsExampleViewController
-
+```
 + (BOOL)shouldCustomTransform:(NSString *)propertyName {
     if ([propertyName isEqualToString:@"date"]) {
         return YES;
@@ -78,8 +78,8 @@
 
 手动跳转：
 非UIViewController的类需要自己实现跳转方法
-
 //instance的属性已经被设置好
+```
 + (void)customRouterWithInstance:(id)instance {
     if ([instance isKindOfClass:[XMExampleView class]]) {
         XMExampleView *view = (XMExampleView *)instance;
@@ -90,6 +90,7 @@
 }
 
 //对象的属性需要通过params自行设置
+```
 + (void)customRouteWithKey:(NSString *)key andParams:(NSDictionary *)params {
 
     XMExampleView *view = [[XMExampleView alloc] initWithFrame:[UIScreen mainScreen].bounds];
@@ -115,7 +116,7 @@ pod 'XMRouter'
 
 ## Author
 
-402187526@qq.com, minglica@isoftstone.com
+402187526@qq.com,
 
 ## License
 
