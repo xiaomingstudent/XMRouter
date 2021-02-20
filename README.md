@@ -42,13 +42,12 @@
 1.直接传参：
 当参数和属性名相同时自动设置属性
 
-参数映射：
+参数映射：实现这个方法后可以根据params重新映射到属性
 ```objc
 + (NSDictionary *)ReplacedKeyFromPropertyName {
     return @{@"name":@"aName"};
 }
 ```
-实现这个方法后可以根据params重新映射到属性
 2.手动传参：
 参数可以自己手动进行转换 参考examle里的XMParamsExampleViewController
 ```objc
